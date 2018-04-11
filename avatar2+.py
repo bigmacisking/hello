@@ -1,13 +1,14 @@
 
 print("Welcome the the world of pick your own adventure")
+input()
 print("The adventures you take are a result of your choice. You are responsible because you choose!  ")
 print("After you make your choice, follow the instructions to see what happens to you next.")
+input()
 print("Remember--you cannot go back! think carefully before you make a move! One ")
 print("mistake can be your last....or it may lead you to fame and fortune!")
-print("But first a few simple questions about your avatar. ")
-print("")
-print("")
-print("")
+input()
+print("But first a few simple questions about your avatar. \n\n")
+
 race = input("Race of avatar? ")
 print("")
 gender = input("Gender of Avatar? ")
@@ -51,7 +52,7 @@ elif age <31:
 elif age <41:
     print("getting on in age and experiance")
 elif age <55:
-    print("experianced adventurer")
+    print("experienced adventurer")
 else:
     print("You should retire from adventuring")
 
@@ -61,7 +62,7 @@ if  Class == "wizard":
 elif Class == "warrior":
     print("May your enemies fear you")
 elif Class == "tank":
-    print("May your shield protect the innecent")
+    print("May your shield protect the innocent")
 elif Class == "rouge":
     print("May you be swift in your travels")
 elif Class == "healer":
@@ -69,6 +70,7 @@ elif Class == "healer":
 else:
     print("An undecided be who you want to be")
 
-print("Let the adventure begain.......")
-Print("You wake up in a strange room and can't remember how you got there.")
-print("The last thing you remember was drinking ale at the local taven")
+print("Let the adventure begin.......")
+input()
+print("You wake up in a strange room and can't remember how you got there.")
+print("The last thing you remember was drinking ale at the local tavern")
